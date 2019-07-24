@@ -13,8 +13,8 @@ return arr
 
 function whileLoop(n=20){
 	while (n>0){
-      	console.log--n 
+      	console.log(--n) 
      }
 	n = 0;
-    return"done"
+    return'done'
 }
