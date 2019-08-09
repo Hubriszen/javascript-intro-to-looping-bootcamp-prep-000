@@ -7,14 +7,28 @@ function forLoop(arr) {
     } else {
       arr.push(`I am ${i} strange loops.`)
     }
+  }
 return arr
 
 }
 
-function whileLoop(n=20){
+function whileLoop(n){
 	while (n>0){
       	console.log(--n) 
      }
-	n = 0;
     return'done'
+}
+
+
+var i = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
+function doWhileLoop(num){
+do {
+  console.log("I run once regardless.")
+} while (incrementVariable() <= num)
 }
